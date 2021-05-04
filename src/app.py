@@ -1,5 +1,3 @@
-from logging import FATAL
-from six import with_metaclass
 from src.libs.arguments import args
 from src.libs.client.imap import new_imap_client, login
 from src.configuration.imap import ImapConfig
